@@ -1,6 +1,8 @@
-torch==1.7.0
+torch==2.10.0
 transformers==4.17.0
 tensorboard==2.6.0
 pandas==1.4.1
 numpy==1.21.2
 scipy==1.6.3
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
